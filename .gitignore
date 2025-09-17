@@ -1,41 +1,50 @@
-# Prerequisites
-*.d
+# ---- Visual Studio / C++ ----
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.VC.db
+Browse.VC.db
+DocumentLayout*.json
 
-# Compiled Object files
-*.slo
-*.lo
-*.o
+# Build folders
+Debug/
+Release/
+x64/
+x86/
+[Ww][Ii][Nn]32/
+
+# Intermediates
 *.obj
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Linker files
-*.ilk
-
-# Debugger Files
+*.tlog
+*.idb
 *.pdb
+*.ilk
+*.ipch
+*.pch
+*.log
 
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
+# Binaries / outputs
 *.exe
-*.out
-*.app
+*.dll
+*.lib
+*.exp
 
-# debug information files
-*.dwo
+# Copilot / indices
+**/CopilotIndices/
+*.vsidx
+
+# Temp / cache
+*.tmp
+*.cache
+*.swp
+*.bak
+*.old
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Your current local binary
+reposum.exe
